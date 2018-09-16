@@ -4,3 +4,42 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 1.1em;
 }
+
+.main-section {
+    box-sizing: content-box;
+    width: 100%;
+    border: 2px solid black;
+    padding-left: 10px;
+    background-color: beige;
+}
+
+hr {
+    border: 2px solid black;
+}
+
+h2 {
+    text-align: center;
+}
+
+.js-section {
+    text-align: center;
+    border: 2px solid black;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding: 4px;
+    padding-bottom: 10px;
+    background-color: aliceblue;
+    box-shadow: 2px 5px #000;
+}
+
+button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 2px 5px;
+    font-size: 15px;
+    text-align: center;
+    margin: 4px 2px;
+    cursor: pointer;
+    box-shadow: 2px 5px #000;
+}
