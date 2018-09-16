@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Programming an ON and OFF Switch</title>
+    </head>
+    <body>
+        <div class='main-section'>
+            <h2>Programming with JavaScript</h2>
+            <p>You can use JavaScript to change the values in an attribute</p>
+            <p>In this practical, we will use JavaScript to change the value of the src (source) attribute of an image.</p>
+            <p>First we will make sure we have the images of a bulb that is on and also a bulb that is off. Then we can use programming, to tell the browser to change image source (src) when ever we clicked on each of the buttons.</p>
+            <p>This also means we will need two button tags that will indicate ON and another for OFF</p>
+            <p>This is just a bit of what JavaScript can do.</p>
+        </div>
+        <hr>
+        <div class='js-section'>
+            <button onclick="document.getElementById('myImage').src='img/bulbon.gif'">Light ON</button>
+            <img id="myImage" src="img/bulboff.gif" style="width:100px">
+            <button onclick="document.getElementById('myImage').src='img/bulboff.gif'">Light OFF</button>
+        </div>
+    </body>
+</html>
